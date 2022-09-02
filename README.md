@@ -1,5 +1,6 @@
-########################
-GetPIDsByProcessEnglishNameAndOptionallyKill
+#########################################################
+
+GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3
 
 Code to find and kill a process given either a numerical PID or an English name (like "python").
 
@@ -11,7 +12,7 @@ www.reubotics.com
 
 Apache 2 License
 
-Software Revision C, 03/13/2022
+Software Revision D, 08/29/2022
 
 Verified working on:
 
@@ -23,14 +24,24 @@ Raspberry Pi Buster
 
 (no Mac testing yet)
 
-########################  
+GetPIDsByProcessEnglishName: Returns [PID_DictWithPIDasKey, PID_DictWithEXEenglishNameAsKey] for an input ProcessName string (in English, like "VLC", "python", or "notepad").
 
-###########################
+KillProcessByPIDlist: Kills/force-closes processes specified by their PID number.
 
-###########################
+Can kill programs based on their English name from the command line like this:
 
-########################### Installation instructions
-Windows and Raspberry Pi:
+python GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3.py "EnglishNameOfProgramYouWishToKill" "kill"
 
-No additional Python modules are required (uses installed-by-default modules only).
-###########################
+#########################################################
+
+######################################################### Python module installation instructions, all OS's
+
+GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies: ['future.builtins', 'pexpect']
+
+GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_TestProgram: []
+
+GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_NestedLayers: []
+
+GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_All: ['future.builtins', 'pexpect']
+
+#########################################################

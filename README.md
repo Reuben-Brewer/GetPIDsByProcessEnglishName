@@ -12,7 +12,7 @@ www.reubotics.com
 
 Apache 2 License
 
-Software Revision E, 09/21/2022
+Software Revision F, 05/10/2023
 
 Verified working on:
 
@@ -42,6 +42,6 @@ GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDepe
 
 GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_NestedLayers: []
 
-GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_All: ['future.builtins', 'pexpect']
+GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_All:['future.builtins', 'pexpect']
 
 #########################################################

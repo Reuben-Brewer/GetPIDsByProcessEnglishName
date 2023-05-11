@@ -12,7 +12,7 @@ www.reubotics.com
 
 Apache 2 License
 
-Software Revision E, 09/21/2022
+Software Revision F, 05/10/2023
 
 Verified working on:
 Python 2.7, 3.8.
@@ -34,6 +34,6 @@ python GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3.py "Englis
 GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies: ['future.builtins', 'pexpect']
 GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_TestProgram: []
 GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_NestedLayers: []
-GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_All: ['future.builtins', 'pexpect']
+GetPIDsByProcessEnglishNameAndOptionallyKill_ReubenPython2and3, ListOfModuleDependencies_All:['future.builtins', 'pexpect']
 
 #########################################################

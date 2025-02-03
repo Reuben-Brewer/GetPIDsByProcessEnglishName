@@ -12,17 +12,15 @@ www.reubotics.com
 
 Apache 2 License
 
-Software Revision G, 10/17/2024
+Software Revision H, 02/02/2025
 
 Verified working on:
 
 Python 2.7, 3.12.
 
-Windows 8.1, 10 64-bit
+Windows 11 64-bit
 
-Raspberry Pi Buster 
-
-(no Mac testing yet)
+Raspberry Pi Buster
 
 GetPIDsByProcessEnglishName: Returns [PID_DictWithPIDasKey, PID_DictWithEXEenglishNameAsKey] for an input ProcessName string (in English, like "VLC", "python", or "notepad").
 
